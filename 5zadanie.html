@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео</title>
+    <style>
+        header{
+        background-image: linear-gradient(to right, rgb(187,231,250), white,rgb(187,231,250));
+        
+        }
+
+        header h1{
+            font-size: 64px;
+            padding: 60px 212px 63px 283px;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 36;
+            color: rgb(235, 114, 46);
+            margin: 72px 0 0 35px;
+        }
+
+
+        .container{
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: flex-start; */
+        }
+        .video-container {
+          float: left;
+          width: 1000px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .video{
+            width: 284px;
+            height: 241px;
+            margin: 40px;
+        }
+
+        .reclama{
+            float: right;
+            width: 222px;
+            height: 462px;
+            border: 10px solid rgb(48, 38, 139);
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        aside h2{
+            color: black;
+            text-align: center;
+            font-size: 36px;
+
+        }
+
+        aside a{
+            color: black;
+            font-size: 24px;
+            text-align: center;
+            text-decoration-line: underline;
+            text-decoration-style: dashed;
+            text-decoration-color: rgb(35, 31, 240);
+        }
+
+        .link{
+            margin: 54px 43px 54px 43px;
+        }
+
+
+        footer{
+            border-top: 10px solid rgb(46, 103, 31);
+        }
+        footer p{
+            font-size: 36px;
+            color: black;
+        }
+
+
+        footer img{
+            border: 1px solid black;
+            border-radius: 30px;
+            padding: 5px;
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Travel Agency</h1>
+    </header>
+
+    <main>
+        <h2>Любите экскурсии?</h2>
+        <section class="container">
+            
+            <div class="video-container">
+                <iframe class="video" src="https://rutube.ru/play/embed/3ac7819f9198d2b7c315b80f620d7a83" frameborder="0"></iframe>
+                <iframe class="video" src="https://rutube.ru/play/embed/2a5d1c4bf3213f36bc55bab4b323dd9d" frameborder="0"></iframe>
+                <iframe class="video" src="https://rutube.ru/play/embed/c144bbd10c67783ba39182d9ac8c6c27" frameborder="0"></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/xcGPWLD2Bkk" frameborder="0"></iframe>
+            </div>
+    
+            <aside class="reclama">
+                <h2>Полезные ссылки</h2>
+                <div class="link"><a href="https://s.infy.su/0kjcy">Билеты</a></div>
+                <div class="link"><a href="https://s.infy.su/a0440">Отели</a></div>
+                <div class="link"><a href="https://dzen.ru/a/aBW9XWO5-WIB8B-C">Чек-лист</a></div>   
+            </aside>
+        </section>
+
+        <h2>Хотите на море?</h2>
+        <section>
+            
+            <div>
+                <iframe class="video" src="https://www.youtube.com/embed/sWlbd094IR4" frameborder="0"></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/cCSkv62weI0" frameborder="0"></iframe>
+            </div>
+        </section>
+        
+        <h2>Всего понемногу?</h2>
+        <section>
+            <div>
+                <iframe class="video" src="https://www.youtube.com/embed/431smGbQaq4" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Напиши — получи скидку!</p>
+        <a href="https://vk.com/"><img src="https://avatars.mds.yandex.net/i?id=78119606c38c7b9d9a43485d8aee1be677c81f6c-10252747-images-thumbs&n=13" width="80" height="60"/>
+        </footer> </a>  
+</body>
+</html>
